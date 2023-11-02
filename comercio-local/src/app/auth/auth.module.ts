@@ -5,7 +5,6 @@ import { RegistroComponent } from './componentes/registro/registro.component';
 import { TrocaSenhaResetComponent } from './componentes/troca-senha-reset/troca-senha-reset.component';
 
 
-
 @NgModule({
   declarations: [
     LoginComponent,
@@ -13,7 +12,8 @@ import { TrocaSenhaResetComponent } from './componentes/troca-senha-reset/troca-
     TrocaSenhaResetComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+
   ]
 })
 export class AuthModule { }

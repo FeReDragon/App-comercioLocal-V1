@@ -15,7 +15,7 @@ import { EditDeletItensComponent } from './componentes/edit-delet-itens/edit-del
     EditDeletItensComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ]
 })
 export class TrocasDoacoesModule { }
