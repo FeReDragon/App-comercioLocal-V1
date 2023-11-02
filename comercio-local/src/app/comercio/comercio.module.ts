@@ -5,13 +5,14 @@ import { HomeComercioComponent } from './componentes/home-comercio/home-comercio
 
 
 
+
 @NgModule({
   declarations: [
     ListaComerciosComponent,
     HomeComercioComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ]
 })
 export class ComercioModule { }

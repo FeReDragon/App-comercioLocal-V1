@@ -13,7 +13,7 @@ import { DashboardComponent } from './componentes/dashboard/dashboard.component'
     DashboardComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ]
 })
 export class SharedModule { }

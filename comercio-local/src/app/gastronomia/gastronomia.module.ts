@@ -11,7 +11,7 @@ import { HomeGastronomiaComponent } from './componentes/home-gastronomia/home-ga
     HomeGastronomiaComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ]
 })
 export class GastronomiaModule { }
