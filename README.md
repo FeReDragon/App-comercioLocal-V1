@@ -1,0 +1,1 @@
+# App-comercioLocal-V1
