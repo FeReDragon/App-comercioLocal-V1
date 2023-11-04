@@ -1,1 +1,56 @@
-<p>lista-restaurantes works!</p>
+<app-header></app-header>
+
+<br><br><br><br><br>
+
+<div class="container mt-5">
+    <h2 class="mb-4">Guia Gastronômico do Bairro</h2>
+
+    <!-- Barra de pesquisa e filtros -->
+    <div class="row mb-4">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Buscar estabelecimento...">
+        </div>
+        <div class="col">
+            <button class="btn btn-orange-gradient">Buscar</button>
+        </div>
+    </div>
+
+    <table class="table table-hover">
+        <thead class="thead-light">
+            <tr>
+                <th>Nome do Estabelecimento</th>
+                <th>Tipo de Comida</th>
+                <th>Status</th>
+                <th>Local</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Linha 1 -->
+            <tr>
+                <td>Restaurante Saboroso</td>
+                <td>Restaurantes</td>
+                <td>
+                    <span class="badge bg-success">Aberto</span>
+                </td>
+                <td>Rua das Flores, 123</td>
+                <td>
+                    <a href="#" class="btn btn-orange-gradient" data-bs-toggle="tooltip" data-bs-placement="top" title="Veja o menu e mais informações sobre o Restaurante Saboroso">
+                        Ver Detalhes
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Lancheria top 10</td>
+                <td>Lancheria</td>
+                <td>
+                    <span class="badge bg-success">Aberto</span>
+                </td>
+                <td>Servidoa das Flores, 478</td>
+                <td>
+                    <a href="#" class="btn btn-orange-gradient" data-bs-toggle="tooltip" data-bs-placement="top" title="Veja o menu e mais informações sobre o lanchonete">
+                        Ver Detalhes
+                    </a>
+                </td>
+            </tr>
