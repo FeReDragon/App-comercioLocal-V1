@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'lista-comercios', component: ListaComerciosComponent },
   { path: 'home-comercio', component: HomeComercioComponent },
   { path: 'lista-itens', component: ListaItensComponent },
-  { path: 'home-trocas-doacoes', component: HomeTrocasDoacoesComponent },
+  { path: 'trocas-doacoes', component: HomeTrocasDoacoesComponent },
   { path: 'header', component: HeaderComponent },
   { path: 'footer', component: FooterComponent },
   { path: 'dashboard', component: DashboardComponent },

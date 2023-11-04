@@ -1,0 +1,32 @@
+
+
+  .btn-orange-gradient {
+    background: #fc4a1a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: none;
+    color: white;
+  }
+  
+  .btn-orange-gradient:hover {
+    background-image: linear-gradient(to right, #fb8c00, #ffa726);
+  }
+
+
+  .section-bg {
+    background-color: rgba(255, 255, 255, 0.349); /* Define a cor de fundo para branco */
+    padding: 20px; /* Adiciona algum espaçamento interno */
+    border-radius: 8px; /* Adiciona cantos arredondados para modernidade */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra para profundidade */
+  }
+  
+  .section-margin {
+    margin-bottom: 30px; /* Adiciona margem na parte inferior de cada seção para espaçá-las */
+  }
+  
+  /* Você pode querer ajustar a margem do topo do primeiro elemento após o cabeçalho */
+  .jumbotron + .container {
+    margin-top: 30px;
+  }
+  
